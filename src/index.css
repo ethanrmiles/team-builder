@@ -1,0 +1,73 @@
+* {
+  border: 1px solid grey;
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: 4E4D50;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+.sbs-wrapper {
+display: flex;
+}
+
+.form-container  {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 400px; */
+  ;
+
+}
+
+.form-container label {
+  display: flex; 
+  flex-direction: column;
+  padding: 1%;
+  margin: 1% 0;
+  ;
+}
+.form-container text {
+  margin-bottom: 1%;
+}
+.form-container input {
+  text-align: center;
+  min-width: 200px;
+  margin: 1%;
+  border-radius: 4px;
+  background-color: #F4F5FA;
+}
+
+.submit-container {
+  margin-top: 4%
+}
+
+.member-container {
+  background-image: url(../public/anastasiia-chepinska-lcfH0p6emhw-unsplash.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.083);
+  opacity: 90%;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
